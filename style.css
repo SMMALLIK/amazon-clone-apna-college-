@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: #000627;
+    height: 62px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    background-image: url(asset/images/amazon0.png);
+    background-size: cover;
+    height: 50px;
+    width: 133px;
+}
+
+.border-hover:hover{
+    border: 1.5px solid white;
+}
+
+
+
+.nav-address {
+    height: 50px;
+    margin-left: 20px;
+    padding: 1px 6px                                ;
+}
+
+
+.nav-address>span{
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 17px;
+}
+
+.address-icon i{
+    font-size: 18px;
+}
+
+.address-icon{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-left: 0px;
+
+}
+
+.search-box{
+    /* background-color: aqua; */
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+
+
+}
+
+.search-box select:hover{
+    background-color: rgba(208, 205, 205, 0.992);
+}
+
+
+.search-box select{
+    height: 40px;
+    padding: 0px 10px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.search-box input{
+    width: 735px;
+    height: 38px;
+    font-size: 15px;
+}
+
+.search-box i:hover{
+    background-color: #d5830f;
+}
+
+
+.search-box i{
+    height: 30px;
+    width: 45px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25%;
+    color: black;
+    background-color: #F3A847;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+.sign-box{
+    padding: 5px 10px;
+
+}
+
+
+.sign-box p{
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.sign-box span{
+    font-size: 16px;
+    color: white;
+}
+
+
+.order-box{
+    margin-left: 22px;
+    padding: 5px 10px;
+
+}
+
+.order-box p{
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.order-box span{
+    font-size: 16px;
+    color: white;
+}
+
+
+.cart-box{
+    margin-left: 22px;
+    display: flex;
+    padding: 5px 10px;
+
+}
+
+.cart-box i{
+    font-size: 33px
+}
+
+.cart-box p{
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.cart-box span{
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+}
+
+
+
+
+
+.customer-service{
+    height: 40px;
+    color: white;
+    background-color: #280707;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* padding: 0px 30px; */
+    
+}
+
+.service {
+    margin: 0px 20px;
+    font-size: 20px;
+    padding: 5px 10px;
+    
+
+}
+
+
+
+.lists-part a{
+  /* padding: 0px 0px; */
+  font-size: 16px;
+  display: inline;
+}
+
+.gap-all{
+    padding: 5px 10px;
+
+}
+
+
+/* .list-part-1 a{
+    padding: 0px 20px;  
+} */
+
+
+
+.hero-section{
+    background-image: url(asset/images/boximg/hero_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-msg{
+    background-color: white;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    /* margin: auto; */
+}
+
+.image-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    margin: 40px 0px;
+    background-color: #CCCCCC;
+}
+
+.box{
+    /* border: 2px solid black; */
+    background-color: white;
+    width: 350px;
+    height: 420px;
+    margin: 4px;
+}
+
+.img-set{
+    margin: 15px 15px;
+}
+
+.box1 h2, a{
+    margin: 18px 15px;
+}
+
+
+.img-part{
+    background-image: url(asset/images/boximg/box1_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+
+.box2 h2, a{
+    margin: 18px 15px;
+}
+
+.img-part2{
+    background-image: url(asset/images/boximg/box2_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+
+
+.box3 h2, a{
+    margin: 18px 15px;
+}
+
+.img-part3{
+    background-image: url(asset/images/boximg/box3_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+
+
+.box4 h2, a{
+    margin: 18px 15px;
+}
+
+.img-part4{
+    background-image: url(asset/images/boximg/box4_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+.box5 h2, a{
+    margin: 18px 15px;
+}
+
+.img-part5{
+    background-image: url(asset/images/boximg/box5_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+.box6 h2, a{
+    margin: 18px 15px;
+}
+
+.img-part6{
+    background-image: url(asset/images/boximg/box6_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+
+.box7 h2, a{
+    margin: 18px 15px;
+}
+
+.img-part7{
+    background-image: url(asset/images/boximg/box7_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+.box8 h2, a{
+    margin: 18px 15px;
+}
+
+.img-part8{
+    background-image: url(asset/images/boximg/box8_image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5px 5px;
+    height: 280px;
+    width: 88%;
+}
+
+
+.foot-top{
+    height: 60px;
+    color: white;
+    background-color: #414249;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-list{
+    margin-top: 100px;
+}
+
+ul a{
+    display: block;
+    color: #CCCCCC;
+}
